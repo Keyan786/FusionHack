@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
     );
     
     elementsToAnimate.forEach(element => {
-        element.classList.add('fade-in');
+        element.classList.add('fade-slide');
         observer.observe(element);
     });
 });
