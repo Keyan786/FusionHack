@@ -672,9 +672,11 @@ p {
 
 .req-icon {
     color: var(--color-secondary);
-    font-weight: 700;
+    font-weight: 200;
     flex-shrink: 0;
 }
+
+
 
 .problem-technologies h4 {
     margin-bottom: var(--spacing-md);
@@ -957,14 +959,23 @@ p {
 }
 
 .requirement-item {
-    display: flex;
+   
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-lg);
     padding: var(--spacing-md);
     background: white;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
+
+     display: flex;
+    align-items: center;      /* vertical */
+    justify-content: center;  /* horizontal */
+    text-align: center;
+    
 }
+
+
+
 
 .requirement-item .req-icon {
     font-size: 2rem;
@@ -1523,3 +1534,23 @@ section {
         padding-top: 120px;
     }
 }
+
+
+/* 
+.requirement-card,  
+.problem-main,
+.about-card,
+.timeline-card,
+.prize-card,
+.register-form-container {
+    color: #0F172A; 
+ */
+
+ .timeline-note{
+     color: #0F172A; 
+ }
+
+ .dark-txt{
+      color: #0F172A; 
+      
+ }
