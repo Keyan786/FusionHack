@@ -1554,3 +1554,9 @@ section {
       color: #0F172A; 
       
  }
+
+
+ .link{
+    text-decoration: none;
+    color: blue;
+ }
