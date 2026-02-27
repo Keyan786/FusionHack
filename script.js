@@ -73,47 +73,7 @@ window.addEventListener('scroll', () => {
     
     lastScrollY = currentScrollY;
 });
-
-// // ==========================================
-// // Countdown Timer
-// // ==========================================
-// function updateCountdown() {
-//     // Set target date to February 21, 2026 00:00:00
-//     const targetDate = new Date('2026-02-21T00:00:00').getTime();
-//     const now = new Date().getTime();
-//     const difference = targetDate - now;
-    
-//     // Calculate time units
-//     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-//     const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-//     const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-//     const seconds = Math.floor((difference % (1000 * 60)) / 1000);
-    
-//     // Update DOM elements
-//     const daysElement = document.getElementById('days');
-//     const hoursElement = document.getElementById('hours');
-//     const minutesElement = document.getElementById('minutes');
-//     const secondsElement = document.getElementById('seconds');
-    
-//     if (daysElement) daysElement.textContent = String(days).padStart(2, '0');
-//     if (hoursElement) hoursElement.textContent = String(hours).padStart(2, '0');
-//     if (minutesElement) minutesElement.textContent = String(minutes).padStart(2, '0');
-//     if (secondsElement) secondsElement.textContent = String(seconds).padStart(2, '0');
-    
-//     // If countdown is finished
-//     if (difference < 0) {
-//         if (daysElement) daysElement.textContent = '00';
-//         if (hoursElement) hoursElement.textContent = '00';
-//         if (minutesElement) minutesElement.textContent = '00';
-//         if (secondsElement) secondsElement.textContent = '00';
-//     }
-// }
-
-// // Update countdown immediately and then every second
-// updateCountdown();
-// setInterval(updateCountdown, 1000);
-
-
+ 
 
 // ==========================================
 // Countdown Timer
