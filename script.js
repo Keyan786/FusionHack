@@ -80,7 +80,7 @@ window.addEventListener('scroll', () => {
 // ==========================================
 
 
-const targetDate = new Date('2026-03-05T23:59:59').getTime(); // radded egistration deadline
+const targetDate = new Date('2026-03-09T23:59:59').getTime(); // radded egistration deadline
 
 function updateCountdown() {
     const now = new Date().getTime();
